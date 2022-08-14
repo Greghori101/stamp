@@ -1,0 +1,76 @@
+.A4 {
+  width: 1122px;
+
+  height: 1587px;
+  color: #000 !important;
+  border:solid;
+}
+
+
+.A4>.row>.col {
+  min-width: 500px;
+  max-width: 547.5px;
+  border: 2px dashed;
+  height:780.5px ;
+  padding: 10px !important;
+  margin: 0 !important
+}
+
+.A4>.row {
+  margin: 10px !important
+}
+
+.A4 .row>.col-md-6>div {
+  border: 2px solid #000;
+  height: 100%;
+  width: 100%
+}
+
+.A4 .row>.col-md-6 {
+  padding: calc(var(--bs-gutter-x) * .5)
+}
+
+.A4 .container {
+  margin: 0 !important;
+  width: 100% !important
+}
+
+
+
+
+.A4 #stamp1 {
+  border-top-color: #fff;
+  border-left-color: #fff
+}
+
+.A4 #stamp2 {
+  border-top-color: #fff;
+  border-right-color: #fff
+}
+
+.A4 #stamp3 {
+  border-bottom-color: #fff;
+  border-left-color: #fff
+}
+
+.A4 #stamp4 {
+  border-bottom-color: #fff;
+  border-right-color: #fff
+}
+
+.A4 .row>.col>div {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000
+}
+
+
+.A4 section {
+  padding: 0
+}
+
+.A4 .form-label {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize
+}
