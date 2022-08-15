@@ -1,9 +1,9 @@
 .A4 {
   width: 1122px;
-
+  font-family: 'Lato', sans-serif !important;
   height: 1587px;
   color: #000 !important;
-  border:solid;
+  border: solid;
 }
 
 
@@ -11,7 +11,7 @@
   min-width: 500px;
   max-width: 547.5px;
   border: 2px dashed;
-  height:780.5px ;
+  height: 780.5px;
   padding: 10px !important;
   margin: 0 !important
 }
@@ -73,4 +73,15 @@
   margin: 0;
   padding: 0;
   text-transform: capitalize
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
